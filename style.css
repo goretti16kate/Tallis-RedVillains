@@ -1,0 +1,183 @@
+body{
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+}
+header *{
+    display: inline;
+}
+.logo{
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#heading{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.navbar{
+
+}
+.listitems{
+    /* margin: 5px; */
+    border-right: 1px solid grey;
+    padding: 30px;
+}
+.listitems a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 8px 16px;
+
+}
+.listitems a:hover{
+    /* background-color: orange; */
+    color: lightgreen;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 10px;
+}
+.started_button{
+    position:absolute;
+    right: 0;
+    margin: 30px;
+    background-color: transparent;
+    height: 50px;
+    width: 140px;
+    color: aliceblue;
+    border: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-header{
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: none;
+    background: transparent;
+    /* background: linear-gradient(90deg, rgba(207,104,26,1) 0%, rgba(0,0,0,1) 39%); */
+}
+.intros{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+    
+}
+.intros h1{
+    font-size: 70px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 0;
+    /* background-color: aquamarine; */
+
+}
+.one{
+    padding-left: 10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 10px;
+
+}
+.two{
+    border-bottom: 1px solid white;
+    border-bottom-right-radius: 10px;
+}
+.intros p{
+    /* background-color: purple; */
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+}
+.getstarted_button{
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+.bookdemo_button{
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%; */
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.left,.right,.center{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.services img{
+    height: 50px;
+}
+
+.left p{
+    text-align: center;
+    width: 70%;
+}
+.right p{
+    text-align: center;
+    width: 70%;
+}
+.center p{
+    text-align: center;
+    width: 70%;
+}
+footer{
+    margin: 80px;
+    text-align: center;
+    /* margin-bottom: 400px; */
+}
+footer h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+footer ul *{
+    display: inline;
+}
+footer ul li{
+    margin: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
